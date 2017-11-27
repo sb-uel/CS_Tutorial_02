@@ -26,7 +26,8 @@ class cRotors {
 public:
 	cRotors(vector<int> startPos, sRotors *MyRotors)
 	{
-		this->currentPos = this->startPos = startPos;
+		this->startPos = { 0, 0, 0 }; // referencia
+		this->currentPos == startPos;
 		this-> MyRotors = MyRotors;
 	}
 
